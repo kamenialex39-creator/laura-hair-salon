@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import heroImage from "./assets/hero.jpg";
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
@@ -151,7 +152,7 @@ function App() {
           <div className="relative fade-up-delay">
             <div className="overflow-hidden rounded-[2rem]">
               <img
-                src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1200&q=85"
+                src={heroImage}
                 alt="Hair styling at Laura Hair Salon"
                 className="h-[550px] w-full object-cover"
               />
