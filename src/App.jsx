@@ -1,5 +1,12 @@
 import { useState } from 'react'
 import heroImage from "./assets/hero.jpg";
+import gallery1Image from "./assets/gallery1.jpg";
+import gallery2Image from "./assets/gallery2.jpg";
+import gallery3Image from "./assets/gallery3.jpg";
+import gallery4Image from "./assets/gallery4.jpg";
+import gallery5Image from "./assets/gallery5.jpg";
+import gallery6Image from "./assets/gallery6.jpg";
+import aboutImage from "./assets/about.jpg";
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
@@ -321,7 +328,7 @@ function App() {
               {/* About image */}
               <div className="overflow-hidden rounded-[2rem]">
                 <img
-                  src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=85"
+                  src={aboutImage}
                   alt="Beautiful woman at Laura Hair Salon"
                   className="h-[550px] w-full object-cover"
                 />
@@ -409,15 +416,15 @@ function App() {
               
               <div className="overflow-hidden rounded-[2rem]">
                 <img
-                  src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=900&q=85"
+                  src={gallery1Image}
                   alt="Hair styling inspiration"
-                  className="h-[420px] w-full object-cover transition duration-500 hover:scale-105"
+                  className="h-[420px] w-full object-cover object-[50%_35%] transition duration-500 hover:scale-105"
                 />
               </div>
 
               <div className="overflow-hidden rounded-[2rem] sm:mt-12">
                 <img
-                  src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=900&q=85"
+                  src={gallery2Image}
                   alt="Beautiful salon hairstyle"
                   className="h-[420px] w-full object-cover transition duration-500 hover:scale-105"
                 />
@@ -425,7 +432,7 @@ function App() {
 
               <div className="overflow-hidden rounded-[2rem]">
                 <img
-                  src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=900&q=85"
+                  src={gallery3Image}
                   alt="Hair salon beauty look"
                   className="h-[420px] w-full object-cover transition duration-500 hover:scale-105"
                 />
@@ -433,7 +440,7 @@ function App() {
 
               <div className="overflow-hidden rounded-[2rem]">
                 <img
-                  src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=900&q=85"
+                  src={gallery4Image}
                   alt="Professional hair styling"
                   className="h-[420px] w-full object-cover transition duration-500 hover:scale-105"
                 />
@@ -441,7 +448,7 @@ function App() {
 
               <div className="overflow-hidden rounded-[2rem] sm:mt-12">
                 <img
-                  src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=900&q=85"
+                  src={gallery5Image}
                   alt="Beauty and hair inspiration"
                   className="h-[420px] w-full object-cover transition duration-500 hover:scale-105"
                 />
@@ -449,7 +456,7 @@ function App() {
 
               <div className="overflow-hidden rounded-[2rem]">
                 <img
-                  src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=900&q=85"
+                  src={gallery6Image}
                   alt="Elegant beauty look"
                   className="h-[420px] w-full object-cover transition duration-500 hover:scale-105"
                 />
