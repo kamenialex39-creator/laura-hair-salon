@@ -134,9 +134,8 @@ function App() {
             </h1>
 
             <p className="mt-8 max-w-lg text-lg leading-8 text-[#4A4038]">
-              A warm, welcoming beauty experience designed to help you
-              look beautiful, feel confident, and leave feeling like your
-              very best self.
+             A warm, welcoming beauty experience in Cape Town, designed to help you
+             look beautiful, feel confident, and leave feeling like your very best self.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
@@ -195,9 +194,9 @@ function App() {
         </h2>
 
         <p className="mt-6 max-w-md text-base leading-7 text-[#4A4038]">
-          From beautiful protective styles to detailed beauty
-          treatments, every service is designed with care,
-          creativity, and attention to detail.
+         From beautiful protective styles to detailed beauty
+         treatments in Cape Town, every service is designed
+         with care, creativity, and attention to detail.
         </p>
 
         <a
@@ -329,7 +328,7 @@ function App() {
               <div className="overflow-hidden rounded-[2rem]">
                 <img
                   src={aboutImage}
-                  alt="Beautiful woman at Laura Hair Salon"
+                  alt="Beautiful woman at Laura Hair Salon in Cape Town"
                   className="h-[550px] w-full object-cover"
                 />
               </div>
@@ -345,9 +344,8 @@ function App() {
                 </h2>
 
                 <p className="mt-6 text-base leading-7 text-[#4A4038]">
-                  At Laura Hair Salon, beauty is more than just a hairstyle.
-                  It is about feeling confident, comfortable, and completely
-                  yourself.
+                  At Laura Hair Salon in Cape Town, beauty is more than just a hairstyle.
+                  It is about feeling confident, comfortable, and completely yourself.
                 </p>
 
                 <p className="mt-5 text-base leading-7 text-[#4A4038]">
@@ -417,7 +415,7 @@ function App() {
               <div className="overflow-hidden rounded-[2rem]">
                 <img
                   src={gallery1Image}
-                  alt="Hair styling inspiration"
+                  alt="Hair styling at Laura Hair Salon in Cape Town"
                   className="h-[420px] w-full object-cover object-[50%_35%] transition duration-500 hover:scale-105"
                 />
               </div>
@@ -425,7 +423,7 @@ function App() {
               <div className="overflow-hidden rounded-[2rem] sm:mt-12">
                 <img
                   src={gallery2Image}
-                  alt="Beautiful salon hairstyle"
+                  alt="Beautiful hairstyle at Laura Hair Salon in Cape Town"
                   className="h-[420px] w-full object-cover transition duration-500 hover:scale-105"
                 />
               </div>
@@ -441,7 +439,7 @@ function App() {
               <div className="overflow-hidden rounded-[2rem]">
                 <img
                   src={gallery4Image}
-                  alt="Professional hair styling"
+                  alt="Professional hair styling at Laura Hair Salon in Cape Town"
                   className="h-[420px] w-full object-cover transition duration-500 hover:scale-105"
                 />
               </div>
@@ -449,7 +447,7 @@ function App() {
               <div className="overflow-hidden rounded-[2rem] sm:mt-12">
                 <img
                   src={gallery5Image}
-                  alt="Beauty and hair inspiration"
+                  alt="Beauty and hair styling at Laura Hair Salon in Cape Town"
                   className="h-[420px] w-full object-cover transition duration-500 hover:scale-105"
                 />
               </div>
@@ -457,7 +455,7 @@ function App() {
               <div className="overflow-hidden rounded-[2rem]">
                 <img
                   src={gallery6Image}
-                  alt="Elegant beauty look"
+                  alt="Elegant beauty styling at Laura Hair Salon in Cape Town"
                   className="h-[420px] w-full object-cover transition duration-500 hover:scale-105"
                 />
               </div>
@@ -752,8 +750,8 @@ function App() {
         </h2>
 
         <p className="mt-6 max-w-md text-base leading-7 text-[#4A4038]">
-          Have a question about a service or want to book your
-          next appointment? We'd love to hear from you.
+         Have a question about a service or want to book your
+         next appointment at our Cape Town salon? We'd love to hear from you.
         </p>
 
         <div className="mt-8 flex flex-wrap gap-3">
